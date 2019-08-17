@@ -1,5 +1,5 @@
 // ==== Callbacks ====  
-console.log("You are on callbacks.js!")
+console.log("======You are on functions.js!======")
 /* Step 1: Create a higher-order function that accepts a callback
   * Create a higher-order function named consume that can take 3 parameters.
   * The first two parameters can accept any argument
@@ -21,7 +21,7 @@ const multiply = (a, b, cb) => {
   return a * b;
 };
 const greeting = (firstname, lastname, cb) => {
-  return "Hello ${firstname} ${lastname}, nice to meet you!";
+  return `Hello ${firstname} ${lastname}, nice to meet you!`;
 };
 
 /* Step 3: Check your work by un-commenting the following calls to consume(): */
