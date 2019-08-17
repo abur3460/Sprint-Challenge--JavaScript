@@ -30,13 +30,26 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
-2. What is the difference between a function and a method?
+.filter() returns a subarray of the data from the original array and .map() makes an array with new, different entries based on the data in the original array.
+
+2. What is the difference between a function and a method? 
+
+A method is always a function, but it is just a function that is a property of an object.
 
 3. What is closure?
 
+Closures control what is and isnt in scope inside a specific function.
+
 4. Describe the four rules of the 'this' keyword.
 
+ `- Window binding is when the value of "this" is the window Object (defaults to this when not specified)
+ `- Implicit binding is when the object to the left of the dot gets "this" because it was called by a preceding dot.
+ `- New binding is when a constructor function is used, which makes "this" refer to the object that is created and returned
+ `- Explicit binding happens when call or apply is used.
+
 5. Why do we need super() in an extended class?
+
+Super() is used to access variables/parameters/functions on a parent object.
 
 ## Project Set up
 
