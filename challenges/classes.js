@@ -13,7 +13,7 @@ class CuboidMaker1 {
       return (2 * (this.length * this.width + this.length * this.height + this.width * this.height));
     }
 }
-const cuboid1 = new CuboidMaker1 ({
+let cuboid = new CuboidMaker1 ({
     length: 4,
     width: 5,
     height: 5
